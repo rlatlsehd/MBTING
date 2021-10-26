@@ -225,5 +225,5 @@ public class UserDAO {
 		}
 		return "http://localhost:8181/UserChat/images/icon.png";
 	}
-	sa
+	
 }
