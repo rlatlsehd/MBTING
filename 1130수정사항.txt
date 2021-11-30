@@ -1,0 +1,5 @@
+bclass_member
+writerday -> joinday
+aggrement -> agreement
+
+note -> bclass_note
