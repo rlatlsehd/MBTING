@@ -1,0 +1,33 @@
+create table bclass_board (
+bidx int not null primary key,
+subject varchar(50) not null,
+contents varchar(1000) not null,
+viewcount int null,
+writeday timestamp default now(),
+ip varchar(20) null,
+pwd  varchar(20) not null,
+bdelYn char(1) default 'N',
+midx int not null,
+filename varchar(100) null,
+replycnt int default '0',
+hit int default '0'
+);
+
+create table bclass_comment (
+cidx int not null primary key,
+c_contents varchar(1000) not null,
+writeday timestamp default now(),
+ip varchar(20) null,
+cdelYn char(1) default 'N',
+bidx int not null,
+midx int not null
+);
+
+create table bclass_comment (
+hidx int not null primary key,
+bidx int not null,
+midx int not null,
+hit_check varchar2(5) default 'N',
+FOREIGN KEY (midx) REFERENCES bclass_member (midx),
+FOREIGN KEY (bidx) REFERENCES bclass_board(bidx)
+);
