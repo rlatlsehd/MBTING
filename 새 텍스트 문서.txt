@@ -1,0 +1,8 @@
+1. 해양수산부, “2019년 낚시어선 현황”, 2020
+2. 황광복, “물고기 분류를 위한 CNN의 적용”, 한국정보통신학회지, pp.464-465, 2018. 03.
+3. 강혜진, “딥러닝을 이용한 어종 판별 시스템”, 숭실대학교 정보과학대학원, 2019.
+4. 박진현, “어종 분류를 위한 CNN의 적용”, 한국정보통신학회지, Vol. 23, No. 1, pp.39-46, 2019.
+5. 강동연, “딥러닝을 이용한 객체 검출 알고리즘“,한국정보처리학회 2019년도 춘계학술발표대회 
+6. Joseph Redmo, You Only Look Once: Unified, Real-Time Object Detection(2016)
+7. GitHub - thtrieu/darkflow: Translate darknet to tensorflow. Load trained weights, retrain/fine-tune using tensorflow, export constant graph def to mobile devices
+8.GitHub - ivangrov/Android-Deep-Learning-with-OpenCV
